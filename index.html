@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bảng giá và công cụ tính giá | Đất Cảng Agency</title>
+<meta name="description" content="Bảng giá niêm yết và công cụ tính giá tạm tính của Đất Cảng Agency: video quảng cáo và TVC, nhận diện thương hiệu, website, sale kit.">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23D71920'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='16' text-anchor='middle' fill='white'%3EĐC%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Bỏ qua, đến nội dung</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <div class="brand"><span class="logo" aria-hidden="true">ĐC</span><span class="brand-name">Đất Cảng Agency</span></div>
+    <div class="ver" id="ver"></div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Bảng giá và công cụ tính giá</h1>
+    <p class="lead">Chọn gói, thêm dịch vụ và xem ngay giá tạm tính, VAT và lịch thanh toán. Mọi tính toán chạy ngay trên máy của bạn; trang này không lưu và không gửi thông tin của bạn đi đâu.</p>
+    <div class="quick" id="quick" aria-label="Chọn nhanh theo nhu cầu"></div>
+  </div>
+</section>
+
+<div class="wrap layout" id="main">
+  <main class="content">
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Nhóm dịch vụ"></nav>
+    <div id="panel" role="tabpanel"></div>
+    <section class="block" id="conditions">
+      <h2>Điều kiện áp dụng</h2>
+      <dl class="cond" id="cond"></dl>
+    </section>
+  </main>
+
+  <aside class="summary" id="summary" aria-label="Báo giá tạm tính">
+    <button class="sum-bar" id="sumBar" type="button" aria-expanded="false" aria-controls="sumBody">
+      <span>Báo giá tạm tính <b id="sumCount"></b></span>
+      <span class="sum-bar-total" id="sumBarTotal">0đ</span>
+    </button>
+    <div class="sum-body" id="sumBody"></div>
+  </aside>
+</div>
+
+<footer class="foot">
+  <div class="wrap" id="foot"></div>
+</footer>
+
+<div id="printArea" aria-hidden="true"></div>
+
+<script src="assets/config.js"></script>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
